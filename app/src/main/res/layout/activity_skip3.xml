@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".skipActivity3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rotationX="10"
+        android:layout_weight="1"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:src="@drawable/skip3_img"
+            android:padding="5dp"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:ems="12"
+            android:text="Discover the perfect balance of harmony and comfort"
+            android:fontFamily="@font/raleway_extrabold"
+            android:textColor="@color/black"
+            android:gravity="center|bottom"
+            android:textSize="26dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="12"
+            android:text="Stay once , carry memories forever."
+            android:fontFamily="@font/raleway_semibold"
+            android:textColor="@color/black"
+            android:gravity="center|bottom"
+            android:textSize="16dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center|bottom">
+            <ImageView
+                android:id="@+id/Touch_Next2"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/grop_2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S K I P"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/raleway_semibold"
+                android:gravity="center"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
