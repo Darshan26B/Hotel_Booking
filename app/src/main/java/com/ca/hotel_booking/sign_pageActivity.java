@@ -14,6 +14,13 @@ public class sign_pageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_page);
-
+        TextView sign_in_with_pw_btn = findViewById(R.id.sign_in_with_pw_btn);
+        sign_in_with_pw_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(sign_pageActivity.this, Login_Account_Activity2.class);
+                startActivity(intent);
+            }
+        });
     }
 }

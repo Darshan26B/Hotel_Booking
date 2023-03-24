@@ -8,17 +8,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class OTP_Page_Activity extends AppCompatActivity {
+public class creat_password_pop_up_Activity extends AppCompatActivity {
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_otp_page);
-       TextView Verify_btn=findViewById(R.id.Verify_btn);
-        Verify_btn.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_creat_password_pop_up);
+         TextView continue_password_btn=findViewById(R.id.continue_password_btn);
+        continue_password_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(OTP_Page_Activity.this,creat_new_passwordActivity.class);
+                Intent intent = new Intent(creat_password_pop_up_Activity.this,creat_password_pop_up_Activity.class);
                 startActivity(intent);
             }
         });

@@ -59,9 +59,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:backgroundTint="@color/white"
                 android:layout_marginLeft="16dp"
-                android:ems="16"
-                android:background="null"
+                android:ems="14"
                 android:fontFamily="@font/raleway_semibold"
                 android:hint="Email"
                 android:textColor="@color/black"
@@ -89,9 +89,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="16dp"
+                android:backgroundTint="@color/white"
                 android:layout_marginRight="6dp"
-                android:ems="13"
-                android:background="null"
+                android:ems="11"
                 android:fontFamily="@font/raleway_semibold"
                 android:hint="Password"
                 android:textColor="@color/black"
@@ -104,7 +104,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:paddingBottom="10dp"
-                android:src="@drawable/eye_slash" />
+                android:src="@drawable/ic_outline_non_visibility_24" />
 
         </LinearLayout>
 
@@ -172,7 +172,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:ems="8"
-                android:layout_marginLeft="125dp"
+                android:layout_marginLeft="105dp"
                 android:text="or continue with"
                 android:layout_marginBottom="5dp"
                 android:gravity="center"
