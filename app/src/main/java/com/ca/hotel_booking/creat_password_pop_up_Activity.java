@@ -14,11 +14,11 @@ public class creat_password_pop_up_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_creat_password_pop_up);
-         TextView continue_password_btn=findViewById(R.id.continue_password_btn);
-        continue_password_btn.setOnClickListener(new View.OnClickListener() {
+         TextView pop_up_btn=findViewById(R.id.pop_up_btn);
+        pop_up_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(creat_password_pop_up_Activity.this,creat_password_pop_up_Activity.class);
+                Intent intent = new Intent(creat_password_pop_up_Activity.this,sign_pageActivity.class);
                 startActivity(intent);
             }
         });

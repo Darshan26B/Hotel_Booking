@@ -7,6 +7,11 @@
     android:background="@color/black"
     android:orientation="vertical"
     tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/full_scr"
+        android:orientation="vertical">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -300,6 +305,7 @@
         android:textColor="@color/white"
         android:textSize="20dp" />
 
+    </LinearLayout>
     </LinearLayout>
     </LinearLayout>
 </LinearLayout>

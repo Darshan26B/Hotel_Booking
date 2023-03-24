@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/touch_scr"
     tools:context=".skipActivity2">
     <LinearLayout
         android:layout_width="match_parent"

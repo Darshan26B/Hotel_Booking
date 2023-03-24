@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".SplashActivity2">
     <TextView
+        android:id="@+id/splash_scr"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/black"
         android:gravity="center"
         android:fontFamily="@font/font_o"
         android:text="A L B A T R O S S"
