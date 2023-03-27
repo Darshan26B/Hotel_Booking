@@ -20,6 +20,7 @@ public class sign_pageActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(sign_pageActivity.this, Login_Account_Activity2.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

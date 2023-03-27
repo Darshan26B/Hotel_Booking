@@ -13,6 +13,20 @@
         android:theme="@style/Theme.Hotel_Booking"
         tools:targetApi="31">
         <activity
+            android:name=".Home_page_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Profile_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".creat_password_pop_up_Activity"
             android:exported="false">
             <meta-data

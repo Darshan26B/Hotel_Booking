@@ -18,7 +18,7 @@ public class creat_password_pop_up_Activity extends AppCompatActivity {
         pop_up_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(creat_password_pop_up_Activity.this,sign_pageActivity.class);
+                Intent intent = new Intent(creat_password_pop_up_Activity.this,Profile_Activity.class);
                 startActivity(intent);
             }
         });

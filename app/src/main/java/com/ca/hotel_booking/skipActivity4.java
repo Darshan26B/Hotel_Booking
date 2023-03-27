@@ -26,6 +26,7 @@ public class skipActivity4 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(skipActivity4.this,sign_pageActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

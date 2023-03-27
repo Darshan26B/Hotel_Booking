@@ -28,6 +28,7 @@ public class skipActivity2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(skipActivity2.this, skipActivity3.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
