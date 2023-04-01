@@ -79,6 +79,7 @@
             android:layout_marginTop="15dp"
             android:background="@drawable/sign_page"
             android:ems="18"
+            android:inputType="textPersonName"
             android:fontFamily="@font/raleway_semibold"
             android:hint="Full Name"
             android:padding="10dp"
@@ -92,6 +93,7 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/sign_page"
             android:ems="18"
+            android:inputType="textPersonName"
             android:fontFamily="@font/raleway_semibold"
             android:hint="Nick Name"
             android:padding="10dp"
@@ -114,6 +116,7 @@
                 android:layout_marginLeft="5dp"
                 android:backgroundTint="@color/white"
                 android:ems="15"
+                android:inputType="datetime"
                 android:fontFamily="@font/raleway_semibold"
                 android:hint="Date Of Birth"
                 android:textColor="@color/black"
@@ -147,6 +150,7 @@
                 android:ems="15"
                 android:fontFamily="@font/raleway_semibold"
                 android:hint="Email"
+                android:inputType="textEmailAddress"
                 android:textColor="@color/black"
                 android:textSize="16dp" />
 
@@ -195,6 +199,7 @@
                 android:ems="13"
                 android:fontFamily="@font/raleway_semibold"
                 android:hint="Phone Number"
+                android:inputType="number"
                 android:textColor="@color/black"
                 android:textSize="16dp" />
 
@@ -219,9 +224,11 @@
                 android:fontFamily="@font/raleway_semibold"
                 android:hint="Gender"
                 android:textColor="@color/black"
+                android:inputType="text"
                 android:textSize="16dp" />
 
             <ImageView
+                android:id="@+id/Profile_img"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center"

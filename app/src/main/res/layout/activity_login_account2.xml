@@ -62,6 +62,7 @@
                 android:backgroundTint="@color/white"
                 android:layout_marginLeft="16dp"
                 android:ems="14"
+                android:inputType="textEmailAddress"
                 android:fontFamily="@font/raleway_semibold"
                 android:hint="Email"
                 android:textColor="@color/black"
@@ -92,6 +93,7 @@
                 android:backgroundTint="@color/white"
                 android:layout_marginRight="6dp"
                 android:ems="11"
+                android:inputType="textWebPassword"
                 android:fontFamily="@font/raleway_semibold"
                 android:hint="Password"
                 android:textColor="@color/black"
@@ -180,49 +182,56 @@
                 android:textSize="18dp" />
 
         </RelativeLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:gravity="center|top">
+
             <LinearLayout
                 android:layout_width="55dp"
                 android:layout_height="55dp"
-                android:gravity="center"
                 android:layout_margin="25dp"
-                android:background="@drawable/login_account_logo">
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_gravity="center"
-            android:src="@drawable/facebook" />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:gravity="center"
-                android:layout_margin="25dp"
-                android:background="@drawable/login_account_logo">
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_gravity="center"
-            android:src="@drawable/google" />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:gravity="center"
-                android:layout_margin="25dp"
-                android:background="@drawable/login_account_logo">
+                android:background="@drawable/login_account_logo"
+                android:gravity="center">
 
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:gravity="center"
-            android:src="@drawable/apple" />
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/facebook" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="25dp"
+                android:background="@drawable/login_account_logo"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/google" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="25dp"
+                android:background="@drawable/login_account_logo"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:src="@drawable/apple" />
             </LinearLayout>
         </LinearLayout>
-<LinearLayout
+
+        <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="40dp">
