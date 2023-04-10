@@ -6,6 +6,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class sign_pageActivity extends AppCompatActivity {
@@ -15,6 +16,7 @@ public class sign_pageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_page);
         TextView sign_in_with_pw_btn = findViewById(R.id.sign_in_with_pw_btn);
+        ImageView backarrowimg = findViewById(R.id.backarrowimg);
         sign_in_with_pw_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -23,5 +25,13 @@ public class sign_pageActivity extends AppCompatActivity {
                 finish();
             }
         });
+        backarrowimg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(sign_pageActivity.this,MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
